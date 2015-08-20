@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+            <head>
+                    <title> Page 2 </title>
+                    <style type="text/css">
+                            .parallax-window {
+                            min-height: 400px;
+                             background: transparent;
+                        }
+                    </style>
+
+                <style type="text/css">
+/* Thanks to Web Designer Wall for writing about this technique: http://webdesignerwall.com/tutorials/css-elastic-videos */
+/* And to A List Apart: http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/ */
+.fve-video-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    background-color: transparent;
+    padding-bottom: 56.25%; /* This is default, but will be overriden */
+    margin: 0.5em 0; /* A bit of margin at the bottom */
+}
+.fve-video-wrapper iframe,
+.fve-video-wrapper object,
+.fve-video-wrapper embed {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.fve-video-wrapper a.hyperlink-image {
+    position: relative;
+    display: none;
+}
+.fve-video-wrapper a.hyperlink-image img {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+.fve-video-wrapper a.hyperlink-image .fve-play-button {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    right: 35%;
+    bottom: 35%;
+    z-index: 3;
+    background-color: rgba(40, 40, 40, 0.75);
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+.fve-video-wrapper a.hyperlink-image:hover .fve-play-button {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+/* End of standard styles */
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/path/to/parallax.js"></script>
+
+
+            </head>
+
+            <body>
+            <h1>My Website</h1>
+            <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="secondary">Page 2</li>
+                    <li><a href="page3.html"> Page 3 </a></li>
+            </ul>
+            <h2>This is my homepage</h2>
+            <p class="secondary">And all of my homepage content</p>
+
+            <p class="secondary">And all of my homepage content</p>
+
+            <p class="secondary">And all of my homepage content</p>
+            <div class="block-content small-gap">
+    <h2>Go On Adventures With Locals</h2><h3>Connect directly with locals around the world for unique, meaningful experiences</h3><a href="/trips?trip_type=local" class="btn">More trips with Locals</a></div>
+<div class="grid images middle-meta">
+    <div class="row">
+                    <link rel="stylesheet" type="text/css" href="main.css" />
+                    <div class="parallax-window" style="background-image:url("HideLuffy.jpg");background-position: center center;"><div class="vertical-center"><div class="block-meta">Choose your own adventure - request a custom trip from our team of specialists</div></div><a href="/build" class="perma-cover"></a></div>
+                    <div class="parallax-window" style="background-image:url(http://adventure.com/wp-content/uploads/2014/05/shaper-studios.jpg);background-position: center center;"><div class="vertical-center"><div class="block-meta">Learn to Build & Surf your own Surfboard, $1,250</div></div><a href="http://adventure.com/trips/ultimate-surfboard-experience-shaping-glassing-riding-2/" class="perma-cover"></a></div>
+                    <div class="parallax-window" style="background-image:url(http://adventure.com/wp-content/uploads/2014/05/backcountry-skiing1-640x560.jpg);background-position: center center;"><div class="vertical-center"><div class="block-meta">Backcountry Skiing in Lake Tahoe, $400</div></div><a href="http://adventure.com/trips/lost-trail-lodge-backcountry-overnighter/" class="perma-cover"></a></div>
+                    <div class="parallax-window" style="background-image:url(http://adventure.com/wp-content/uploads/2014/05/caving01.jpg);background-position: center center;"><div class="vertical-center"><div class="block-meta">Wild Jungle Trekking and Remote Cave Exploration</div></div><a href="http://adventure.com/trips/wild-jungle-trekking-remote-cave-exploration/" class="perma-cover"></a></div>
+                    <div class="parallax-window" style="background-image:url(http://adventure.com/wp-content/uploads/2014/05/costa-rica-family.jpg);background-position: center center;"><div class="vertical-center"><div class="block-meta">Costa Rica Family Adventure, $2,260</div></div><a href="http://adventure.com/trips/costa-rica-family-adventure/" class="perma-cover"></a></div>
+                    <div class="parallax-window" style="background-image:url(http://adventure.com/wp-content/uploads/2014/05/run-morocco.jpg);background-position: center center;"><div class="vertical-center"><div class="block-meta">Run Morocco, $2,300</div></div><a href="http://adventure.com/trips/run-morocco/" class="perma-cover"></a></div>
+                    <div class="parallax-window" style="background-image:url(http://adventure.com/wp-content/uploads/2014/10/Peru-2-e1414700992926-640x426.jpg);background-position: center center;"><div class="vertical-center"><div class="block-meta">14day Peru Photography Workshop, $2880</div></div><a href="http://adventure.com/trips/peru-photography-tour-workshop/" class="perma-cover"></a></div>
+                    <div class="parallax-window" style="background-image:url(http://adventure.com/wp-content/uploads/2014/05/chamonix.jpg);background-position: center center;"><div class="vertical-center"><div class="block-meta">Ski France, Italy and Switzerland, $2,999</div></div><a href="http://adventure.com/trips/ski-france-switzerland-and-italy/" class="perma-cover"></a></div>    </div>
+</div><div class="block-content small-gap partial">
+
+    <h2>Choose your own adventure</h2><h3 style="text-align: center;">Build your custom dream adventure with the help of our local experts</h3>
+<p>Local knowledge and expertise makes all the difference. When you build a trip with Adventure.com, you work directly with our teams in North America and in the destination you&#8217;re going to. We can help build completely custom trips for just you, a group of two or even a group of 16 or more people.</p>
+<p style="text-align: center;"><a class="btn black" href="/build">Build your trip</a></p>
+</div><!-- /.block-content --></div><!-- /.body-reveal -->
+<div class="parallax-window" data-parallax="scroll" data-image-src="ttp://adventure.com/wp-content/uploads/2014/05/shaper-studios.jpg"></div>
+
+
+
+            </body>
+
+</html>

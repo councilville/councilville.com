@@ -1,0 +1,23 @@
+body {
+    background: #988;
+    font-family: arial;
+}
+h1, h2 {
+    color: #777;
+}
+a {
+    color: red;
+}
+p {
+    background: #777;
+    color: #333;
+    padding: 8px;
+}
+.secondary {
+    background: none;
+    color: #555;
+}
+#spam {
+    background: none;
+    color: #000;
+}
