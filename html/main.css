@@ -1,5 +1,5 @@
 body {
-    background: #988;
+    background: none;
     font-family: arial;
 }
 h1, h2 {
@@ -7,6 +7,16 @@ h1, h2 {
 }
 a {
     color: red;
+}
+nav ul {
+    margin: 0;
+    padding: 0 0 0 15px;
+    display: inline;
+}
+nav ul li{
+    background: black;
+    color : white;
+
 }
 p {
     background: #777;
