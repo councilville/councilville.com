@@ -1,9 +1,12 @@
+title {
+    color: black;
+}
 body {
     background: none;
     font-family: arial;
 }
 h1, h2 {
-    color: #777;
+    color: black;
 }
 a {
     color: red;
